@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    height: 500vh;
+}
+
+header {
+    width: 100%;
+    padding: 50px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+}
+
+ul {
+    list-style-type: none;
+}
+ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+
+.banner {
+    height: 100vh;
+    background-image: url(../Assets/images/fundo.jpg);
+    background-position: 100% 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 { 
+    font-size: 4em;
+}
+
+.banner h1 span {
+    color: #7646E4;
+}
