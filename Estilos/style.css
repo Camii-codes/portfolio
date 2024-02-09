@@ -28,13 +28,13 @@ header.rolagem{
     padding: 40px 4%;
 }
 
-header.rolagem a, header.rolagem i{
-    color: white;
-}
-
 header i{
     font-size: 30px;
     color: #fff;
+}
+
+header.rolagem a, header.rolagem i{
+    color: white;
 }
 
 .rolagem {
