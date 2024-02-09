@@ -15,10 +15,17 @@ html {
 
 header {
     width: 100%;
-    padding: 50px 4%;
+    height: 130px;
+    padding: 10px 4%;
     position: fixed;
     top: 0;
     left: 0;
+    transition: 1s;
+}
+
+.rolagem {
+    background-color: white;
+    padding: 10px 4%;
 }
 
 .container {
@@ -46,6 +53,16 @@ ul li {
 
 ul li a {
     text-decoration: none;
+}
+
+.btn-contato button {
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #7646E4;
+    color: white;
+    cursor: pointer;
+    transition: -2s;
 }
 
 
