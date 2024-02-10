@@ -53,6 +53,26 @@ header.rolagem a, header.rolagem i{
     justify-content: space-between;
 }
 
+menu nav ul li {
+    width: 200px;
+    padding: 12px;
+    text-align: right;
+}
+
+menu > ul > li > a {
+    color: #004ab5;
+    text-decoration: none;
+    display: inline;
+}
+
+.btn-contato button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #231F20;
+    
+}
+
 .logo {
     width: 200px;
 }
@@ -69,17 +89,6 @@ ul li {
 ul li a {
     text-decoration: none;
 }
-
-.btn-contato button {
-    width: 120px;
-    height: 40px;
-    border: 0;
-    background-color: #3e3739;
-    color: white;
-    cursor: pointer;
-    transition: -2s;
-}
-
 
 .banner {
     height: 100vh;

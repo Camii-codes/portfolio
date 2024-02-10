@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header i{
+        font-size: 30px;
+        color: #fff;
+    }
+    
+    .container {
+        max-width: 1280px;
+        margin: auto;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .btn-contato button {
+        width: 120px;
+        height: 40px;
+        border: 0;
+        background-color: #3e3739;
+        color: white;
+        cursor: pointer;
+        transition: -2s;
+    }
+
+    #classe-menu .bi {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    header i{
+        font-size: 30px;
+        color: #fff;
+    }
+    
+    .container {
+        max-width: 1280px;
+        margin: auto;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    menu nav ul li {
+        width: 200px;
+        padding: 12px;
+        text-align: left;
+    }
+    
+    menu nav ul li:hover {
+        background-color: #0267f5;
+        color: black;
+        cursor: pointer;
+    }
+    
+    menu > ul > li > a {
+        color: #004ab5;
+        text-decoration: none;
+        display: inline;
+    }
+
+    .btn-contato button {
+        width: 120px;
+        height: 40px;
+        border: 0;
+        background-color: #3e3739;
+        color: white;
+        cursor: pointer;
+        transition: -2s;
+    }
+
+    #classe-menu .bi {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    header i{
+        font-size: 30px;
+        color: #fff;
+    }
+    
+    .container {
+        max-width: 1280px;
+        margin: auto;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .btn-contato button {
+        width: 120px;
+        height: 40px;
+        border: 0;
+        background-color: #3e3739;
+        color: white;
+        cursor: pointer;
+        transition: -2s;
+    }
+
+    #classe-menu .bi {
+        display: none;
+    }
+}
+
