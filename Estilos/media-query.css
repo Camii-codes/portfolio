@@ -17,6 +17,19 @@
         justify-content: space-around;
     }
 
+    ul {
+        list-style-type: none;
+    }
+    ul li {
+        color: white;
+        display: inline-block;
+        margin: 0 40px;
+    }
+    
+    ul li a {
+        text-decoration: none;
+    }
+
     .btn-contato button {
         width: 120px;
         height: 40px;

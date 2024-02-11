@@ -53,6 +53,14 @@ header.rolagem a, header.rolagem i{
     justify-content: space-between;
 }
 
+menu {
+    display: none;
+    font-size: 18px;
+    text-align: right;
+    padding-top: 10px;
+    margin: 20px;
+}
+
 menu nav ul li {
     width: 200px;
     padding: 12px;
@@ -65,12 +73,11 @@ menu > ul > li > a {
     display: inline;
 }
 
-.btn-contato button {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+button {
+    font-size: 18px;
+    border: none;
     background-color: #231F20;
-    
+    color: white;
 }
 
 .logo {

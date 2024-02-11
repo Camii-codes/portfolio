@@ -15,9 +15,16 @@ function mudouTamanho() {
 
 function clickMenu() {
     if (menu.style.display == 'block') {
-        menu.style.display = 'none'
+        menu.style.display = 'none';
+        document.querySelector('.bi-list').style.visibility = 'visible'; // Exibir o ícone do menu quando o menu for fechado
     } else {
-        menu.style.display = 'block'
+        menu.style.display = 'block';
     }
 }
+
+document.querySelector('.bi-list').addEventListener('click', function() {
+    this.style.visibility = 'hidden';
+});
+
+
 
