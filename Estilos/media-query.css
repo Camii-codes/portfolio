@@ -20,14 +20,22 @@
     ul {
         list-style-type: none;
     }
+
     ul li {
+        text-align: left;
         color: white;
-        display: inline-block;
-        margin: 0 40px;
+        display: inline;
+        margin: 10px;
     }
     
     ul li a {
         text-decoration: none;
+    }
+
+    menu nav ul li {
+        width: 200px;
+        padding: 12px;
+        text-align: center;
     }
 
     .btn-contato button {
@@ -62,22 +70,25 @@
         justify-content: space-between;
     }
 
+    ul {
+        list-style-type: none;
+    }
+
+    ul li {
+        text-align: left;
+        color: white;
+        display: inline-block;
+        margin: 2px;
+    }
+    
+    ul li a {
+        text-decoration: none;
+    }
+
     menu nav ul li {
         width: 200px;
         padding: 12px;
-        text-align: left;
-    }
-    
-    menu nav ul li:hover {
-        background-color: #0267f5;
-        color: black;
-        cursor: pointer;
-    }
-    
-    menu > ul > li > a {
-        color: #004ab5;
-        text-decoration: none;
-        display: inline;
+        text-align: center;
     }
 
     .btn-contato button {
