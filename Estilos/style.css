@@ -51,6 +51,7 @@ header.rolagem a, header.rolagem i{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 menu {
@@ -67,10 +68,8 @@ menu nav ul li {
     text-align: right;
 }
 
-menu > ul > li > a {
-    color: #004ab5;
-    text-decoration: none;
-    display: inline;
+nav ul li:hover {
+    font-size: 20px;
 }
 
 button {
@@ -78,6 +77,10 @@ button {
     border: none;
     background-color: #231F20;
     color: white;
+}
+
+button:hover {
+    font-size: 20px;
 }
 
 .logo {
